@@ -145,6 +145,10 @@ app_license = "MIT"
 # User Data Protection
 # --------------------
 
+fixtures = [
+        "Books",
+        ]
+
 user_data_fields = [
 	{
 		"doctype": "{doctype_1}",
