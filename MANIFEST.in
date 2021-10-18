@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include oxygen *.css
+recursive-include oxygen *.csv
+recursive-include oxygen *.html
+recursive-include oxygen *.ico
+recursive-include oxygen *.js
+recursive-include oxygen *.json
+recursive-include oxygen *.md
+recursive-include oxygen *.png
+recursive-include oxygen *.py
+recursive-include oxygen *.svg
+recursive-include oxygen *.txt
+recursive-exclude oxygen *.pyc
